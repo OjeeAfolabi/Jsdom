@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  height: 70px;
+  width: 100px;
+  margin-left: 2rem;
+}
+#nav-bar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  background-color: cadetblue;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.menu {
+  gap: 2rem;
+  display: flex;
+  margin-right: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* .cart {
+  padding: 3rem;
+  display: flex;
+  border: 2px solid cadetblue;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  width: 1000px;
+  margin: auto;
+  margin-top: 2rem;
+} */
+.cart {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 1500px;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 2rem;
+}
+.items {
+  border-radius: 5px;
+  border: 2px solid cadetblue;
+  /* pointer-events: none; */
+}
+.items:hover {
+  box-shadow: 5px 10px 10px rgb(22, 46, 47);
+}
+.item {
+  width: 250px;
+  height: 250px;
+  padding: 1rem;
+}
+
+.output {
+  background-color: cadetblue;
+  border: 2px solid rgb(15, 70, 72);
+  color: white;
+  border-radius: 5px;
+  width: 400px;
+  padding: 1rem;
+  height: auto;
+}
+.list {
+  border-radius: 5px;
+  border: 2px solid cadetblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  text-align: center;
+}
+
+.greet {
+  margin-bottom: 5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.add-item {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+.add-item:hover {
+  background-color: cadetblue;
+  font-weight: 500;
+}
+.cart-heading {
+  background-color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.cart-heading p {
+  color: cadetblue;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  font-size: 18px;
+}
+.cart-heading h3 {
+  color: cadetblue;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.cart-logo {
+  height: 40px;
+  width: 40px;
+  margin-top: 0;
+}
+.output-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.output-title span {
+  background-color: cadetblue;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 0;
+}
