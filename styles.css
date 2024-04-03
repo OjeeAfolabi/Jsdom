@@ -27,6 +27,19 @@ a {
   text-decoration: none;
   color: white;
 }
+.cartList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.cartList span {
+  color: cadetblue;
+  font-size: 12px;
+}
+.cartList button {
+  padding: 2px;
+}
 /* .cart {
   padding: 3rem;
   display: flex;
@@ -68,8 +81,10 @@ a {
   color: white;
   border-radius: 5px;
   width: 400px;
+  height: 100vh;
   padding: 1rem;
-  height: auto;
+  overflow-y: scroll;
+  /* height: auto; */
 }
 .list {
   border-radius: 5px;
@@ -111,7 +126,7 @@ a {
   color: cadetblue;
   text-align: center;
   margin: 1rem 0 1rem 0;
-  font-size: 18px;
+  font-size: 12px;
 }
 .cart-heading h3 {
   color: cadetblue;

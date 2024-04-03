@@ -26,7 +26,7 @@
       </div>
     </header>
     <div class="cart">
-      <div class="list">
+      <div class="list" id="listCont">
         <div class="items">
           <img class="item" src="./images/sweatshirt.webp" />
           <h4>Black Longsleeve Men</h4>
@@ -84,10 +84,24 @@
       </div>
       <div class="output">
         <div class="cart-heading">
-          <div class="output-title"><h3 class="text">My Cart</h3> <img class="cart-logo" src="./images/cart.png" alt=""><span></span></div>
-          <p>Your cart is empty</p>
+          <div class="output-title">
+            <h3 class="text">My Cart</h3>
+            <img class="cart-logo" src="./images/cart.png" alt="" /><span
+              id="label"
+              >0</span
+            >
+          </div>
+          <ul id="cartID">
+            <!-- <li class="cartList">
+              <p>Basketball T-shirt Black</p>
+              <span>$10</span><button>delete</button>
+            </li> -->
+          </ul>
           <hr />
-         <span class="total"> <h3>Total</h3> <h3>$0.00</h3></span>
+          <span class="total">
+            <h3>Total</h3>
+            <h3 id="$price">$0.00</h3></span
+          >
         </div>
       </div>
     </div>
